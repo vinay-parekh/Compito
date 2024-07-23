@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ToDoAppApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(ToDoAppApplication.class, args);
+		System.out.println("This project is working absolutely fine!!");
 	}
 
 }
