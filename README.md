@@ -1,1 +1,1 @@
-# Compito
+# Compito - A ToDo Application
