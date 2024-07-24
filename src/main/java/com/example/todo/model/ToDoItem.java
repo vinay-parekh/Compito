@@ -5,6 +5,7 @@ import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
 @Entity
+@Table(name = "to_do_items")
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor

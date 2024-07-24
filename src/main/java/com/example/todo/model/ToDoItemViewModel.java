@@ -13,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ToDoItemViewModel {
+
     private List<ToDoItem> todoList = new ArrayList<>();
     public ToDoItemViewModel(Iterable<ToDoItem> list) {
         list.forEach(todoList::add);
